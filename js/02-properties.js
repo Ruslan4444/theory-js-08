@@ -30,5 +30,11 @@ const imageEl = document.querySelector('.hero__image');
 
 const actions = document.querySelectorAll('.js-actions button');
 // console.log(actions);
-console.log(actions[0].dataset);
+console.log(actions);
 console.log(actions[0].dataset.action);
+
+// magicBtn.addEventListener('click', () => {
+//     const inputEl = document.querySelector('.js-input');
+//     console.log(inputEl.value);
+//     inputEl.value = 'ergrtrbrb';
+// })
